@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złap króliczka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Zagraj w grę "Złap króliczka". Aby zagrać wybierz poziom trudności</h2>
+        <div class="header-container">
+            <h2>Wynik: <span id="user-score">0</span></h2>
+            <h2>Pozostały czas: <span id="time-left">60</span></h2>
+        </div>
+    </header>
+    <div class="message"></div>
+    <div class="buttons">
+        <button type="button" id="ease">Poziom łatwy</button>
+        <button type="button" id="medium">Poziom średni</button>
+        <button type="button" id="hard">Poziom trudny</button>
+        <a href="index.html">Zatrzymaj grę</a>
+    </div>
+    <div class="square-container">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square add-rabit" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+    <div id="mess"><em>Bo nie chodzi o to, żeby złapać króliczka, tylko o to, żeby go gonić 😻 </em></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
